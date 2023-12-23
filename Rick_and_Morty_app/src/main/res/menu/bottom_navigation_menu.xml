@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/menu/bottom_navigation_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Characters list"
+        android:id="@+id/navigation_character_list"
+        android:icon="@drawable/rick_head"
+        />
+    <item
+        android:id="@+id/navigation_search_character"
+        android:title="Search"
+        android:icon="@drawable/portal_gun"/>
+    <item
+        android:id="@+id/navigation_random_character"
+        android:title="Random Character"
+        android:icon="@drawable/question_sign"/>
+</menu>
